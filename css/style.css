@@ -3,6 +3,8 @@ body {
   background-color: white;
 }
 
+/* Nav */
+
 .nav-header {
   position: relative;
   top: 18px;
@@ -88,6 +90,8 @@ body {
   font-size: 22px;
 }
 
+/* Main */
+
 main {
   position: absolute;
   top: 0;
@@ -99,6 +103,8 @@ main {
       grid-template-areas: "hero	hero	hero	hero" "advertisement1	advertisement2	advertisement3	advertisement4";
   grid-gap: 2px;
 }
+
+/* Hero */
 
 .hero {
   height: 538px;
@@ -120,6 +126,8 @@ main {
   font-size: 50px;
   font-weight: 100;
 }
+
+/* Promo */
 
 .advertisement {
   display: -webkit-box;
@@ -145,6 +153,8 @@ main {
 .advertisement4 {
   grid-area: advertisement4;
 }
+
+/* Footer */
 
 footer {
   position: absolute;
